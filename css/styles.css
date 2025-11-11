@@ -14,10 +14,17 @@ body{
 
 article{
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
     gap: 20px;
+    background-color: rgb(74, 108, 219);
+    color: beige;
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 30px;
 }
 
 header{
@@ -30,6 +37,6 @@ header{
 
 .imagen{
     border-radius: 100%;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 }
